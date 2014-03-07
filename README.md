@@ -5,14 +5,14 @@ todo：子标签个数引起的多意
 
 
 
-<info  lenght = 1>
-<child></child>
-</info>
+	<info  lenght = 1>
+	<child></child>
+	</info>
 //转换后child为字典
 
-<info  lenght = 1>
-<child></child>
-<child></child>
+	<info  lenght = 1>
+	<child></child>
+	<child></child>
 
 </info>
 //转换后child为数组
