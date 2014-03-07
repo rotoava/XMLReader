@@ -1,4 +1,31 @@
-# XMLReader
+# XMLReadr
+
+----------------------------
+todo：子标签个数引起的多意
+
+
+
+<info  lenght = 1>
+<child></child>
+</info>
+//转换后child为字典
+
+<info  lenght = 1>
+<child></child>
+<child></child>
+
+</info>
+//转换后child为数组
+
+
+
+
+
+
+
+
+----------------------------
+
 
 This project comes from a component developed by Troy Brant and published on his website : http://troybrant.net/blog/2010/09/simple-xml-to-nsdictionary-converter/
 
